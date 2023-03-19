@@ -4,18 +4,23 @@
 	 viewBox="0 0 356.9 174.2" style="enable-background:new 0 0 356.9 174.2;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#1D1D1B;}
-	.st1{fill:#E2E1D9;}
-	.st2{font-family:'ABCWhyteUnlicensedTrial-Light';}
-	.st3{font-size:77.8132px;}
+	.st1{enable-background:new    ;}
+	.st2{fill:#D1CFC7;}
 </style>
 <g>
 	<g>
 		<g>
-			<polygon class="st0" points="118.5,0 201.8,0 118.5,86.6 			"/>
-			<polygon class="st0" points="242.7,0 166.6,75.2 242.7,174.2 			"/>
+			<polygon class="st0" points="121.2,0 204.5,0 121.2,86.6 			"/>
+			<polygon class="st0" points="245.4,0 169.3,75.2 245.4,174.2 			"/>
 		</g>
-		<polygon class="st0" points="144.2,96.6 204.6,174.2 118.5,174.2 118.5,123.2 		"/>
+		<polygon class="st0" points="146.9,96.6 207.3,174.2 121.2,174.2 121.2,123.2 		"/>
 	</g>
 </g>
-<text transform="matrix(1 0 0 1 -4.7008 153.6948)" class="st1 st2 st3">by</text>
+<g class="st1">
+	<path class="st2" d="M7.2,145.7H3.3c1.5,2.2,3.2,5.6,3.2,8.4H0.5V99.6h6.5v10.2c0,7.4-1.8,10.9-3.9,14.2h4c1.6-4.5,5-9.5,12.5-9.5
+		c8.8,0,15.7,7.5,15.7,20.3c0,12.8-6.9,20.4-15.7,20.4C11.7,155.2,8.6,149.4,7.2,145.7z M28.6,134.8c0-10.8-4.7-14.6-10.8-14.6
+		c-6.3,0-11,4.7-11,14.6c0,9.9,4.7,14.7,11,14.7C23.9,149.5,28.6,145.4,28.6,134.8z"/>
+	<path class="st2" d="M69.4,115.6h7l-15.4,44c-2.4,7.2-5.1,9.6-12,9.6h-7.5v-5.9h7.3c2.9,0,4.6-0.7,5.8-4.1l2-5.8l-17-37.9h7.3
+		l8.6,20.1c1.5,3.6,1.9,7.3,2,11.2h3.1c0.1-4,0.5-6.9,1.6-10.5L69.4,115.6z"/>
+</g>
 </svg>

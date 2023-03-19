@@ -13,6 +13,8 @@
 
   <body class="">
     <header class="header">
+      <div class="nav__burger nav__burger--squeeze  js-toggle-menu"><div class="nav__burger__lines"></div></div>
+
       <a class="header__logo" href="https://keyscript.nl/" target="_blank">
         <img src="img/by_K_logo_2.svg">
       </a>
@@ -206,5 +208,24 @@
         </section>
       </div>
     </section>
+
+
+    <script>
+      const page = document.querySelector("body");
+      const nav = document.querySelectorAll(".header__nav");
+      const hamburger= document.querySelector(".js-toggle-menu");
+
+      function toggleMenu() {
+        if (page.classList.contains("menu-is-open")) {
+          page.classList.remove("menu-is-open");
+          hamburger.classList.remove("open");
+        } else {
+          page.classList.add("menu-is-open");
+          hamburger.classList.add("open");
+        }
+      }
+
+      hamburger.addEventListener("click", toggleMenu);
+    </script>
   </body>
 </html>
