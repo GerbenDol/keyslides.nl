@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 186 186" style="enable-background:new 0 0 186 186;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E6EEEF;}
+	.st1{fill:#A7CBD1;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:#FFFFFF;stroke:#A7CBD1;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st0" d="M93,184.5c-50.5,0-91.5-41.1-91.5-91.5S42.6,1.5,93,1.5c50.5,0,91.5,41.1,91.5,91.5S143.5,184.5,93,184.5z"/>
+	<path class="st1" d="M93,3c49.6,0,90,40.4,90,90s-40.4,90-90,90c-49.6,0-90-40.4-90-90S43.4,3,93,3 M93,0C41.6,0,0,41.6,0,93
+		s41.6,93,93,93c51.4,0,93-41.6,93-93S144.4,0,93,0L93,0z"/>
+</g>
+<g>
+	<ellipse transform="matrix(0.1602 -0.9871 0.9871 0.1602 -13.7 169.9328)" class="st2" cx="93" cy="93" rx="79.9" ry="79.9"/>
+	<path class="st1" d="M93,14.6c43.2,0,78.4,35.2,78.4,78.4s-35.2,78.4-78.4,78.4S14.6,136.2,14.6,93S49.8,14.6,93,14.6 M93,11.6
+		c-44.9,0-81.4,36.4-81.4,81.4s36.4,81.4,81.4,81.4c44.9,0,81.4-36.4,81.4-81.4S138,11.6,93,11.6L93,11.6z"/>
+</g>
+<path class="st3" d="M87.2,40.7c0-3.2,2.6-5.8,5.8-5.8c3.2,0,5.8,2.6,5.8,5.8v49.2l32.3,21.5c2.7,1.8,3.4,5.4,1.6,8.1
+	c-1.8,2.7-5.4,3.4-8.1,1.6L89.8,97.9c-1.6-1.1-2.9-2.9-2.9-4.8L87.2,40.7z"/>
+</svg>

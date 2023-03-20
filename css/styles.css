@@ -510,6 +510,12 @@ p {
   }
 
 
+
+.section__img {
+  text-align: center;
+}
+
+
 .section blockquote {
   font-size: 32px;
 }
@@ -564,9 +570,22 @@ p {
   }
 }
 
+
+.feature > *:last-child {
+  margin-bottom: 0;
+}
+
+
 .feature__thumb {
   margin-bottom: 20px;
+  height: 160px;
 }
+
+  .feature__thumb img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
 
 
 /* =============================================================================
@@ -616,7 +635,4 @@ p {
 .study__icon {
   height: 40px;
   width: 40px;
-
-  background-color: red;
-  border-radius: 50%;
 }
