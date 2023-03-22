@@ -82,6 +82,7 @@ img[height] {
 
 .illustration img {
   width: 100%;
+  height: auto;
 }
 
 
