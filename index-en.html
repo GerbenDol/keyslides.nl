@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
     <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+
+    <link rel="alternate" href="https://keyslides.nl/index.html" hreflang="nl-nl" />
     
     <title>KeySlides</title>
 
@@ -13,6 +15,10 @@
 
   <body class="">
     <header class="header">
+      <div class="lang">
+        <a href="index.html">NL</a>
+      </div>
+
       <div class="nav__burger nav__burger--squeeze  js-toggle-menu"><div class="nav__burger__lines"></div></div>
 
       <a class="header__logo" href="https://keyscript.nl/" target="_blank">
@@ -144,7 +150,7 @@
     </section>
 
 
-    <section class="section section--split">
+    <section class="section section--split section--reversed">
       <div class="section__content">
         <h2>The menu PowerPoint forgot to copy from Word</h2>
         <p>Use text styles like you do in Word, take the guessing out of Tabbing and Shift-Tabbing and avoid direct formatting for consistent (on brand) text styling.</p>
@@ -283,8 +289,8 @@
 
 
     <section class="blocked" id="pricing">
-      <section class="section">
-        <div class="section__content section__content--center">
+      <section class="section section--split">
+        <div class="section__content">
           <h2>Pricing</h2>
           <p>The research tells us that the time (=&nbsp;money) saving potential of KeySlides is even above our own expectations. When you buy something that almost instantly (after you to set things up) starts earning your company money, it’s a good investment.</p>
 
@@ -298,6 +304,14 @@
               <li>Not included: additional support and customization. You only pay when you need it</li>
             </ul>
           </div>
+        </div>
+  
+        <div class="section__img">
+          <picture class="illustration">
+            <source srcset="img/KEYSLIDES_PRICE.svg"
+                    media="(orientation: portrait)">
+            <img src="img/KEYSLIDES_PRICE.svg" alt="">
+          </picture>
         </div>
       </section>
     </section>
@@ -318,7 +332,7 @@
     <script>
       const page = document.querySelector("body");
       const nav = document.querySelectorAll(".header__nav");
-      const hamburger= document.querySelector(".js-toggle-menu");
+      const hamburger = document.querySelector(".js-toggle-menu");
 
       function toggleMenu() {
         if (page.classList.contains("menu-is-open")) {
@@ -329,6 +343,10 @@
           hamburger.classList.add("open");
         }
       }
+
+      document.querySelectorAll('.nav__item').forEach(item => {
+        item.addEventListener("click", toggleMenu);
+      })
 
       hamburger.addEventListener("click", toggleMenu);
     </script>
