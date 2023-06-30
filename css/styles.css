@@ -545,6 +545,13 @@ p {
   }
 }
 
+@media (max-width: 780px) {
+  .section {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
 
 .section--wide {
   max-width: 1480px;
@@ -582,8 +589,6 @@ p {
   .section--split.section--reversed {
     flex-direction: column;
     gap: 40px;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
