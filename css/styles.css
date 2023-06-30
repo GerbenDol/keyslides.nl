@@ -541,6 +541,12 @@ p {
 }
 
 
+.section--padded {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
 
 .section__content > *:last-child {
   margin-bottom: 0;
