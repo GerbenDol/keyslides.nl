@@ -648,6 +648,10 @@ p {
   font-size: 18px;
 }
 
+* + .features {
+  margin-top: 80px;
+}
+
 @media (max-width: 1080px) {
   .features {
     grid-template-columns: repeat(2, 1fr);
@@ -665,7 +669,7 @@ p {
 
 .feature__thumb {
   margin-bottom: 20px;
-  height: 160px;
+  height: 90px;
 }
 
 @media (max-width: 580px) {
